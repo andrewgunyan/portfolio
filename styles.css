@@ -1,0 +1,82 @@
+body {
+  background-color: rgb(39, 145, 80);
+}
+
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(41, 41, 65);
+}
+
+h1.haha {
+  width: 100%;
+  font-size: 20;
+  font-family: serif;
+  color: rgb(13, 13, 131);
+}
+
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(6, 39, 28);
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(22, 48, 119);
+}
+
+hr {
+  border: 1px solid black;
+}
+
+ul.menu {
+  background-color: #032b17;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li.menu {
+  float: left;
+  border-right: 1px solid #bbb;
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+}
+
+li:first-child.menu {
+  border-left: 1px solid #bbb;
+}
+
+li a.menu {
+  display: block;
+  color: rgb(151, 196, 169);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover.menu {
+  background-color: #111;
+}
+
+a.menu {
+  display: block;
+  padding: 8px;
+  background-color: #032b17;
+}
+
+
+div.test {
+  flex: 1;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+div.large {
+  text-align: center;
+  display: flex;
+  width: 98%;
+  border: 15px solid green;
+}
